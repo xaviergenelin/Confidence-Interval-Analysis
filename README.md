@@ -6,4 +6,4 @@ The goal of the project was to estimate the probability of success, p, from a Bi
 * Raw Percentile Interval using a parametric bootstrap
 * Bootstrap t Interval using a parametric bootstrap
 
-We are checking each interval for multiple values of p as well as using various sample sizes. From each interval, we get the proportion of intervals that capture the true value and the average length of the interval.
+We are checking each interval for multiple values of p (0.01 to 0.99 in increments of 0.01) as well as using various sample sizes (15, 100, 200). From each interval, we get the proportion of intervals that capture the true value and the average length of the interval and do a comparison to see which interval is best.
