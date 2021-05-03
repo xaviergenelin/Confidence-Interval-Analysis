@@ -1,4 +1,3 @@
-par(mfrow = c(2, 3))
 ggplot(waldResults, aes(x = X1, y = X6)) + 
   geom_line(color = "blue") + 
   ggtitle("Proportion containing with n = 200 Wald ") +
